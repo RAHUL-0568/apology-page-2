@@ -9,8 +9,9 @@ document.getElementById("yesBtn").addEventListener("click", function () {
 
     // Redirect to WhatsApp AFTER the popup is visible
     setTimeout(() => {
-        const whatsappLink = "https://wa.me/6230271530?text=I%20forgive%20you!%20%F0%9F%98%8A%20";
-        window.location.href = whatsappLink;
+      const snapchatLink = "https://www.snapchat.com/add/rishabhtoo?share_id=aXf_Gt130cw&locale=en-GB ";
+window.location.href = snapchatLink;
+
     }, 7000); // Increased delay to 7 seconds for better timing
 });
 
